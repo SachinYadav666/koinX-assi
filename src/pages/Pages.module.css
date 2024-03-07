@@ -1,0 +1,13 @@
+.pageContainer{
+    background-color: var(--secondary-color);
+    width: 100%;
+    height: auto;
+    padding: 26px 63px;
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 500px) {
+   .pageContainer{
+padding: 10px;
+   }
+    }

@@ -1,0 +1,21 @@
+.containerFooter {
+ 
+padding-bottom: 100px;
+}
+.firstHeading{
+    margin-top: -50px;
+}
+.secondHeading{
+    margin-top: 50px;
+}
+.containerFooter h1{
+    margin-left: 4rem;
+    position: absolute;
+}
+
+@media only screen and (max-width: 500px) {
+    .containerFooter {
+ 
+        display: none;
+        }
+}

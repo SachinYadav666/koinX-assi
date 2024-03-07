@@ -1,0 +1,126 @@
+.cardSection{
+    display: flex;
+   gap: 1rem;
+   width: 100%;
+}
+.secondaryCardSection{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.cardOne{
+    background-color: #0053ff;
+    margin-top: 20px;
+  
+    width: 100%;
+    padding: 30px 20px;
+    color: var(--text-white);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cardOne h2{
+    font-size: 30px;
+}
+.cardOne img{
+    height: 200px;
+
+}
+.joinfree{
+    background: var(--text-white);
+    color: var(--text-black);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.cardTwo{
+    background: var(--text-white);
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 100%;
+    padding: 30px 20px;
+}
+.positiveGrowth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #a2efb0;
+    border-radius: 2px;
+    color: #12b179;
+    font-size: 18px;
+    width: 100px;
+}
+.positiveGrowthIndicator>span{
+    font-size: 30px;
+    fill: #12b179;
+}
+.positiveGrowthIndicator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trendingCoin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.namedetail{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.namedetail img{
+    height: 30px;
+    border-radius: 100%;
+}
+.trendingCoins{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    margin-top: 31px;
+}
+.cardTitleChartedMobile{
+   display: none;
+}
+.coinImg{
+    height: 40px;
+}
+.containerFooterMobile{
+    display: none;
+
+}
+@media only screen and (max-width: 500px) {
+    .cardSection{
+       flex-direction: column;
+     
+    }
+    .cardTitleChartedMobile{
+        display: flex;
+        margin-top: 10px;
+      gap: 1rem;
+        align-items: center;
+        justify-content: flex-start;
+     }
+
+     .containerFooterMobile {
+        background-color: white;
+ display: block;
+ margin-top: -4rem;
+ border-radius: 20px;
+        }
+        .firstHeading{
+            margin-top: 30px;
+        }
+        .secondHeading{
+            margin-top: 30px;
+        }
+        .containerFooter h1{
+           text-align: center;
+        }
+        
+    }

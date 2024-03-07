@@ -1,0 +1,568 @@
+.primaryCards{
+    background-color: var(--primary-color);
+    width: 1000px;
+    height: auto;
+    border-radius: 20px;
+    padding: 31px;
+    margin-top:20px ;
+ overflow-x: hidden;   
+}
+
+/* CharterdCard */
+.cardTitleCharted{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    padding-bottom: 31px;
+}
+.coinImg{
+    height: 40px;
+}
+.cardPriceCharted{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+    border-bottom:2px solid rgba(135, 129, 129, 0.561) ;
+    padding-bottom: 30px;
+}
+.usdPrice{
+    font-size: 40px;
+}
+.inrPrice{
+    font-size: 20px;
+}
+
+.growthChangePill{
+    width: 86px;
+    height: 22px;
+}
+.positiveGrowth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #a2efb0;
+    border-radius: 2px;
+    color: #12b179;
+    font-size: 18px;
+}
+.negativeGrowth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #efa2a2;
+    border-radius: 2px;
+    color: #b11212;
+    font-size: 18px;
+
+}
+
+.positiveGrowthIndicator>span{
+    font-size: 30px;
+    fill: #12b179;
+}
+
+.negativeGrowthIndicator >span{
+    transform: rotate(180deg);
+    font-size: 30px;
+    fill: #b11212;
+}
+.chartedTime{
+    font-size: 20px;
+    color: var(--text-gray);
+}
+
+.timespanCharted{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 31px;
+    padding-bottom: 31px;
+}
+.timeSpanLinks{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    color: var(--text-gray);
+}
+.timeSpanLink{
+    padding: 3px 5px;
+}
+.timeSpanLink:hover{
+    background-color: #e3ecff;
+    color: #1d57d4;
+    border-radius: 20px;
+    
+}
+.timeSpanLink:active,
+.timeSpanLink.active
+{
+    background-color: #e3ecff;
+    color: #1d57d4;
+    border-radius: 20px;
+    
+}
+.chartCharted{
+   height: 400px;
+}
+
+/* PerformanceCard */
+.performanceCard{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.performanceTitle{
+   font-size: 20px;
+}
+.performanceIndicators{
+    margin-bottom: 31px;
+    font-size: 20px;
+}
+
+.performanceFundamentals{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 1rem;
+width: 100%;
+}
+.performanceFundamentalsTitle{
+    display: flex;
+    gap: 1rem;
+   
+  
+   
+}
+.performanceFundamentalsTitle >h3{
+font-weight: 600;
+}
+.performanceFundamentalsTitle>span{
+    background: var(--text-gray);
+    color: var(--text-white);
+    opacity: 0.7;
+    border-radius: 20px;
+   
+}
+
+.performanceFundamentalsData{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 3rem;
+ width: 100%;
+ margin-bottom: 31px;
+}
+
+.performanceFundamentalsDataSection1Data,
+.performanceFundamentalsDataSection2Data
+{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 0;
+gap: 10rem;
+border-bottom: 2px solid rgb(107, 94, 94,0.2);
+}
+.performanceFundamentalsDataSection1Data{
+    gap: 12rem;  
+}
+
+
+/* sentimentCard */
+.sentimentTitle{
+    font-size: 20px;
+}
+
+.sentimentCard{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  
+}
+
+.sentimenrCrousalsubTitle{
+    display: flex;
+    gap: 1rem;
+    margin-top: 31px;
+  
+}
+.sentimenrCrousalsubTitle>span{
+    background: var(--text-gray);
+    color: var(--text-white);
+    opacity: 0.7;
+    border-radius: 20px;
+    
+   
+}
+.crousalcomponent{
+    padding-bottom: 31px;
+}
+.sentimentEstimatePercentages{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-top: 31px;
+}
+.sentimentEstimatePercentage{
+padding: 70px 55px;
+text-align: center;
+border-radius: 100%;
+background: rgb(210, 249, 218);
+font-size:60px ;
+color:rgb(20, 161, 48) ;
+}
+
+.sentimentEstimatePercentagebuysell{
+    display: flex;
+    align-items: center;
+    
+    gap: 20px;
+    font-size: 20px;
+    color: var(--text-gray);
+    margin: 30px 0;
+}
+
+.buyBar{
+    height: 7px;
+    border-radius: 2px;
+    background:rgb(20, 161, 48) ;
+    width: 400px;
+}
+.HoldBar{
+    height: 7px;
+    border-radius: 2px;
+    background:var(--text-gray) ;
+    width: 70px;
+}
+.SellBar{
+    height: 7px;
+    border-radius: 2px;
+    background:red ;
+    width: 170px;
+}
+
+
+/* About Card */
+.aboutcoin{
+    border-bottom: 2px solid rgb(107, 94, 94,0.2);
+margin-top: 31px;
+display: flex;
+flex-direction: column;
+gap: 1rem;
+line-height: 20px;
+padding-bottom: 31px;
+}
+.aboutTitle{
+   margin-bottom: 31px;
+}
+.aboutCards{
+    margin-top: 31px;
+    color: #1d57d4;
+   
+}
+.aboutCard .card{
+    display: flex;
+    gap:2rem;
+    background-image: linear-gradient(130deg,#77eca4, #1063ad);
+    padding: 20px;
+    border-radius: 10px;
+    width: auto;
+}
+.aboutcard{
+    margin-top: 31px;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.card img{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.cardDetail h4{
+    color: var(--text-white);
+    font-size: 25px;
+ 
+}
+.cardDetail p{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+    padding-right: 0;
+    background-color: var(--text-white);
+    border-radius: 5px;
+    color: var(--text-black);
+    margin-top: 10px;
+    width: 150px;
+    
+}
+.cardDetail{
+    padding:  0 40px 0 0;
+}
+
+
+/* Tokonomics Card */
+.tokonomicsTitle{
+    margin-bottom: 31px;
+}
+.pieChartCard{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.pieChart{
+    margin-left: -150px;
+}
+.pieChartText{
+    line-height: 30px;
+}
+/* Team Card */
+.teamMembers{
+    margin-top: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 31px;
+    
+}
+.memberCard{
+background: #dce7fc;
+padding: 31px;
+display: flex;
+gap: 20px;
+align-items: center;
+justify-content: center;
+border-radius: 20px;
+color: var(--text-gray);
+}
+.userDetail{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 0.5rem;
+}
+.userDetail img{
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.userDetail h3{
+    color: var(--text-black);
+}
+
+.smallCard{
+   max-height:220px ;
+  
+    overflow-y: hidden;
+}
+
+.CarouselContainer{
+    display: flex;
+    width: auto;
+    gap: 2rem;
+    
+    }
+    
+    .crouselCards{
+        display: flex;
+     
+        width: 500px;
+        height:250px ;
+        gap: 2rem;
+        align-items: start;
+        justify-content: center;
+        padding: 20px;
+        margin-top:31px ;
+        border-radius: 20px;
+       }
+    
+       .blueCard{
+        background-color: rgb(180, 225, 255);
+    }
+    .greenCard{
+        background-color: rgb(193, 251, 205);
+    }
+    .redCard{
+        background-color: rgb(251, 193, 193);
+    }
+    
+    .crouselTaxtHeading{
+        font-size: 17px;
+        font-weight: 700;
+        }
+        .crouselTaxt{
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            line-height: 25px;
+        }
+    
+        .blueCard .cardimg{
+            margin-top: 10px;
+            color: var(--text-white);
+            background: rgb(36, 166, 253);
+            border-radius: 50px;
+            padding: 18px;
+        }
+        .greenCard .cardimg{
+            margin-top: 10px;
+            color: var(--text-white);
+            background: rgb(50, 255, 91);
+            padding: 10px;
+            border-radius: 30px;
+            padding: 18px;
+        
+        }
+        .redCard .cardimg{
+            margin-top: 10px;
+            color: var(--text-white);
+            background: rgb(252, 3, 3);
+            padding: 10px;
+            border-radius: 30px;
+            padding: 18px;
+        
+        } 
+    
+    
+    
+        @media only screen and (max-width: 500px) {
+            .primaryCards{
+              width: auto;
+              padding: 11px;
+              border-radius:10px;
+
+               }
+               .memberCard{
+                flex-direction: column;
+               width: 22rem;
+               border-radius: 10px;
+               padding: 21px;
+               }
+               .pieChartText,.tokonomicsText{
+                line-height: 20px;
+               }
+               
+               .aboutcard{
+                flex-direction: column;
+               }
+               .sentimentEstimatePercentage{
+                padding: 50px 35px;
+                font-size:40px ;
+                }
+                .sentimentEstimatePercentagebuysell{
+                    gap: 10px;
+                    font-size: 15px;
+                    color: var(--text-gray);
+                    margin: 20px 0;
+                }
+                .sentimentEstimatePercentages{
+                    gap: 1rem;
+                    margin-top: 21px;
+                }
+                .buyBar{
+                    width: 150px;
+                }
+                .HoldBar{
+                    width: 20px;
+                }
+                .SellBar{
+                    width: 70px;
+                }
+                .crousalcomponent{
+                    padding-bottom: 21px;
+                }
+                .sentimenrCrousalsubTitle{
+                    margin-top: 21px;
+                  
+                }
+                .crouselCards{
+                    width: 300px;
+                    height:170px ;
+                    gap: 1rem;
+                    padding: 10px;
+                    margin-top:21px ;
+                    border-radius: 10px;
+                    font-size: 12px;
+                    line-height: 30px;
+                    
+                   }
+                   .redCard .cardimg{
+                    margin-top: 5px;
+                  
+                    border-radius: 50px;
+                    padding: 9px;
+                }
+                .greenCard .cardimg{
+                    margin-top: 5px;
+                  
+                    border-radius: 50px;
+                    padding: 9px;
+                }
+                .blueCard .cardimg{
+                    margin-top: 5px;
+                  
+                    border-radius: 50px;
+                    padding: 9px;
+                }
+                .crouselTaxtHeading{
+                    font-size: 15px;
+                    font-weight: 700;
+                    line-height: 16px;
+                    }
+                    .crouselPlaneTaxt{
+                        line-height: 16px;
+                    }
+                    .performanceFundamentalsData{
+                        display: flex;
+                       flex-direction: column;
+                        gap: 3rem;
+                    }
+                        .performanceFundamentalsDataSection1Data,
+                        .performanceFundamentalsDataSection2Data {
+                            
+                            padding: 10px 0;
+                            gap: 1rem;
+                       
+                        }
+                        .performanceFundamentalsDataSection1Data{
+                            gap: 10rem;
+                        }
+                        .cardTitleCharted{
+                            display: none;
+                        }
+
+                        .cardPriceCharted{
+                            margin-top: 20px;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                            align-items: flex-start;
+                            padding-bottom: 10px;
+                        }
+                        .timespanCharted{
+                            flex-direction: column;
+                            gap: 1rem;
+                            margin-top: 21px;
+                            padding-bottom: 21px;
+                            font-size: 13px;
+                            align-items: flex-start;
+                            margin-left: 10px;
+                        }
+                        .timeSpanLinks{
+                            gap: 0.3rem;
+                        }
+                        .chartCharted{
+                            height: 200px;
+                         }
+                        }

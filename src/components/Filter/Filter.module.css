@@ -1,0 +1,41 @@
+.filters {
+    font-size: 20px;
+    margin-top: 31px;
+    margin-bottom: 31px;
+    border-bottom: 2px solid rgba(107, 94, 94, 0.2);
+    overflow-x: auto; 
+    white-space: nowrap;
+  }
+  
+  .filterLinks {
+    display: flex;
+    gap: 2.5rem;
+    color: var(--text-gray);
+    cursor: pointer;
+    list-style: none;
+  }
+  
+  .filterLink:active,
+  .filterLink.active {
+    color: blue;
+    border-bottom: 3px solid blue;
+    padding-bottom: 20px;
+  }
+  @media only screen and (max-width: 500px) {
+    .filters {
+      font-size: 15px;
+      margin-top: 21px;
+      margin-bottom: 21px;
+      white-space: nowrap;
+     
+    }
+    
+    .filterLinks {
+      gap: 1.4rem;
+    }
+    
+    .filterLink:active,
+    .filterLink.active {
+      padding-bottom: 10px;
+    }
+  }
